@@ -4,7 +4,7 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "https://hopital-militaire.azurewebsites.net"
+            allowedOrigins: "http://localhost:80"
             allowedHeaders: "*"
             allowCredentials: "true"
             allowedMethods:
